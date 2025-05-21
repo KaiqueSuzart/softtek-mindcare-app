@@ -8,6 +8,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.softtek.mindcare.model.Answer
 import com.softtek.mindcare.model.Question
 import com.softtek.mindcare.model.UiState
 import com.softtek.mindcare.ui.component.*

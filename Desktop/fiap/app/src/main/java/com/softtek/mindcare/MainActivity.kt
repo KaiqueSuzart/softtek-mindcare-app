@@ -38,7 +38,7 @@ fun MindCareApp() {
     ) {
         composable("questionnaire") {
             QuestionnaireScreen(
-                onNavigateToSummary = { answers ->
+                onNavigateToSummary = {  answers: List<Answer> ->
                     val answersJson = Json.encodeToString(answers)
                     navController.navigate("summary/$answersJson")
                 }
